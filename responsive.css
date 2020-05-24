@@ -1,0 +1,857 @@
+@media screen and (max-width: 1190px) {
+  .header1-content {
+    width: 95%;
+  }
+  .header1-content button div {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .scroll-top {
+    position: fixed;
+    right: 3%;
+    text-align: center;
+    background: #ececec;
+    font-size: 20px;
+    width: 46.5px;
+    height: 52px;
+    line-height: 52px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .header1-content {
+    width: 100%;
+    padding: 0 0;
+    height: 62px;
+    justify-content: space-between;
+    align-items: normal;
+  }
+
+  .isara-logo {
+    width: 100px;
+    height: 35px;
+    margin-top: 24px;
+  }
+  .header-content-inner {
+    margin-left: 10px;
+  }
+  .header-content-inner p {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    width: 200px;
+    font-size: 10px;
+  }
+  .header1-content button {
+    width: 80px;
+    height: 62px;
+    /* padding: 0 40px; */
+    background: #da6b64;
+    color: #fff;
+    border-radius: 0%;
+    padding: 0;
+  }
+  .pc {
+    display: none;
+  }
+  .responsive img {
+    width: 20px;
+    height: 25px;
+    margin-top: 10px;
+  }
+  .responsive {
+    display: block;
+    width: 80px;
+  }
+  .responsive p {
+    font-size: 12px;
+  }
+  .header-image {
+    background: url(./img/main.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 25px 0 5px 0;
+  }
+  .image-inner h3 {
+    font-size: 18px;
+  }
+  .image-inner p {
+    line-height: 1.1;
+    font-size: 15px;
+  }
+  
+  .header2-container {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .header2-content .text-white {
+    font-size: 15px;
+  }
+  .header2-content .bg-white {
+    color: #c7254e;
+    font-size: 13.5px;
+    line-height: 19px;
+    width: 78%;
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    display: block;
+    margin-bottom: 30px;
+  }
+  .header2-btn {
+    height: 104px;
+    font-size: 20px;
+    width: 90%;
+    margin-bottom: 15px;
+  }
+  .header2-news {
+    font-size: 15px;
+    width: 75%;
+  }
+  .icon-button {
+    display: flex;
+    justify-content: center;
+  }
+  .yes {
+    font-size: 11px;
+    padding: 1px 5px;
+    font-weight: bold;
+    color: #fff;
+    background: #007bff;
+    display: inline-block;
+    margin: 0 4px;
+  }
+  .fa-thumbs-up {
+    font-size: 13px;
+  }
+  .share {
+    font-size: 11px;
+    padding: 1px 5px;
+    font-weight: bold;
+  }
+  .upbringing {
+    background: none;
+    background: url("./img/introbottom2.jpg");
+    background-position: top;
+    background-size: cover;
+    /* height: 700px;*/
+  }
+  .upbringing-content {
+    width: 90%;
+    height: 80px;
+    margin-bottom: 50px;
+  }
+  .bracket1 {
+    width: 30px;
+    height: 30px;
+    border-top: 4px solid #ebb94d;
+    border-left: 4px solid #ebb94d;
+  }
+  .bracket2 {
+    width: 30px;
+    height: 30px;
+    margin-top: 75px;
+    border-bottom: 4px solid #ebb94d;
+    border-right: 4px solid #ebb94d;
+  }
+  .bracket7 {
+    width: 30px;
+    height: 30px;
+    margin-top: 90px;
+    border-bottom: 4px solid #ebb94d;
+    border-right: 4px solid #ebb94d;
+  }
+  .upbringing-title {
+    font-size: 18px;
+    line-height: 2;
+    margin: 17px 0;
+  }
+  .upbringing-title-content {
+    font-size: 15px;
+  }
+  .space {
+    display: block;
+    margin-top: 32px;
+  }
+  
+  .about {
+    position: absolute;
+    bottom: -5%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 12px;
+  }
+
+  .isara {
+    padding-top: 60px;
+  }
+  .isara-title {
+    width: 70%;
+    font-size: 18px;
+    line-height: 2;
+    margin: 30px 0;
+    letter-spacing: .1em;
+  }
+  .isara-container p {
+    font-size: 15px;
+    letter-spacing: .2em;
+  }
+  
+  .engineer-container-title {
+    font-size: 15px;
+    padding-top: 12px;
+  }
+  .en-skills {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+  .skills1 {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  .skills2 {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px 0 20px 0;
+  }
+  .e-cards {
+    width: 8rem;
+  }
+  .card-img {
+    margin: 0 auto;
+    width: 32px;
+    height: 30px;
+  }
+  .card-text {
+    font-size: 10px;
+    padding: 10px;
+  }
+  .t-img {
+    width: 75px;
+    height: 30px;
+  }
+  .engineer-container .card-body {
+    width: 8rem;
+  }
+  .e-cards .card-text {
+    font-size: 10px;
+    padding: 10px 0;
+    text-align: center;
+    color: #333;
+  }
+
+  .noskill-title {
+    font-size: 18px;
+  }
+  .noskill-title-sub {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+  .noskill-title-sub .base {
+    line-height: 3em;
+    font-size: 14px;
+  }
+
+  .step {
+    width: 90%;
+    display: block;
+  }
+  .step-card {
+    width: 100%;
+    padding: 16px 48px;
+  }
+  .step-card2 {
+    margin: 16px 0;
+  }
+  .step-title {
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  .step-title div {
+    font-size: 12px;
+  }
+  .bang {
+    font-weight: bold;
+    font-size: 12px;
+    color: #000;
+    margin-bottom: 0;
+    line-height: 2.5em;
+  }
+  .bang2 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+    letter-spacing: .1em;
+  }
+
+  .step-bottom {
+    padding: 24px 0;
+  }
+  .step-bottom-text {
+    font-size: 12px;
+  }
+
+  .learn {
+    padding: 30px 0;
+  }
+  .learn-title {
+    font-size: 18px;
+    padding-bottom: 30px 0;
+  }
+  .learn-title span {
+    font-size: 12px;
+  }
+  .learn-sub-title {
+    font-size: 15px;
+    margin-top: 48px;
+  }
+  .box img {
+    width: 83px;
+    height: 83px;
+    margin: 0 5px;
+  }
+  .learn-box {
+    display: flex;
+    justify-content: center;
+  }
+  .isisara {
+    font-size: 12px;
+    font-weight: normal;
+  }
+
+  .advantage-container {
+    padding-top: 30px;
+  }
+  .ad-content {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+  }
+  .advantage-title {
+    font-size: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .advantage-sub-title {
+    font-size: 18px;
+  }
+  .bracket3 {
+    width: 30px;
+    height: 30px;
+    margin-top: 75px;
+    border-bottom: 5px solid #ebb94d;
+    border-right: 5px solid #ebb94d;
+    margin-top: 85px;
+    margin-left: 5px;
+  }
+  .card-deck {
+    padding-top: 20px;
+  }
+  .card-deck-container {
+    display: block;
+  }
+  .ad-card {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .ad-card .ad-card-body {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .ad-card2 {
+    margin: 10px auto;
+  }
+  .ad-card .ad-img {
+    height: 120px;
+  }
+  .card-title {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 5px;
+
+  }
+  .ad-card-body .card-text {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .support {
+    padding-top: 30px;
+  }
+  .su-title {
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  .su-sub-title {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .su-sub-text {
+    font-size: 10px;
+    padding: 0 15px;
+  }
+  .su-sub-text .member {
+    display: none;
+  }
+  .su-bottom {
+    padding: 15px 0 35px 0;
+  }
+  .su-bottom-container {
+    font-size: 12px;
+    width: 95%;
+  }
+
+  .founding {
+    background-size: cover;
+    height: 1505px;
+  }
+  .founding-container {
+    width: 95%;
+  }
+  .founding-title h3 {
+    font-size: 18px;
+    letter-spacing: .1em;
+  }
+  .founding-title p {
+    font-size: 12px;
+    padding-bottom: 30px;
+  }
+  .su-cards {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .su-card {
+    width: 100%;
+    height: 20rem;
+  }
+  .su-card2 {
+    margin-top: 15px;
+    display: block;
+    height: 19rem;
+  }
+  .su-card-body2 {
+    padding-bottom: 5px;
+  }
+  .su-card-body .card-title {
+    margin: 0;
+  }
+  .su-card-body .card-title2 {
+    margin: 0;
+    margin-top: 10px;
+  }
+  .su-card-body .card-title, 
+  .su-card-body .card-title2, 
+  .su-card-body .card-text,
+  .su-card-body .card-text2 {
+    font-size: 12px;
+  }
+  .su-card-body .card-text {
+    padding-bottom: 20px;
+  }
+  .su-card-img {    
+    width: 120px;
+    height: 120px;
+  }
+
+  .question {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
+  .q-container {
+    width: 95%;
+  }
+  .q-circle {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: #ebb94d;
+    font-size: 12px;
+  }
+  .q-title h3 {
+    font-size: 14px;
+    line-height: 3em;
+  }
+  .q-bracket1 {
+    width: 30px;
+    height: 30px;
+
+    border-top: 4px solid #fff;
+    border-left: 4px solid #fff;
+  }
+  .q-bracket2 {
+    width: 30px;
+    height: 30px;
+    margin-top: 90px;
+    vertical-align: text-bottom;
+    border-bottom: 4px solid #fff;
+    border-right: 4px solid #fff;
+  }
+  .tool-y {
+    width: 35px;
+    height: 35px;
+    background: #ebb94d;
+    transform: rotate(45deg);
+    margin-top: -25px;
+  }
+  
+  .answer {
+    padding-top: 15px;
+  }
+  .answer h3 {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+  .answer .p1, .answer .p2 {
+    font-size: 12px;
+  }
+  .answer .p1 {
+    padding-bottom: 20px;
+  }
+
+  .ans-container {
+    width: 95%;
+    margin: auto;
+  }
+  .opinion img {
+    width: 140px;
+    height: 140px;
+    border:3px solid #ebb94d;
+  }
+  .cards-body {
+    padding-left: 15px;
+  }
+  .cards-text2 {
+    font-size: 15.3px;
+    font-style: italic;
+    text-decoration: underline;
+  }
+
+  .isara-learning {
+    padding: 48px 0 20px 0;
+  }
+  .il-container {
+    width: 100%;
+  }
+  .il-container h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  .il-container p {
+    font-size: 12px;
+  }
+  .il-container .pb-lg-4 {
+    padding-bottom: 10px;
+  }
+  .card-list {
+    width: 90%;
+    margin: 5px auto;
+    display: block;
+  }
+  .card-list .card {
+    margin: 20px auto;
+  }
+  .card2 {
+    width: 100%;
+    height: 336px;
+
+  }
+  .card-list-header {
+    font-size: 15px;
+  }
+  .list-group-item {
+    font-size: 12px;
+  }
+  .il-bottom {
+    padding: 20px 0;
+  }
+  .il-bottom-title p {
+    font-size: 15px;
+  }
+
+  .attendance {
+    padding: 30px 0;
+  }
+  .attend-container h3 {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    padding: 10px 0 5px 0;
+  }
+  .attend-card {
+    display: none;
+  }
+  .flow {
+    display: none;
+  }
+  .line img {
+    display: none;
+  }
+  .accordion-card {
+    width: 95%;
+    margin-bottom: 7px;
+  }
+  .accordion-card-header {
+    background: #fef5e0;
+    margin-bottom: 3px;
+  }
+  .accordion-card-header h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: .1em;
+  }
+  .accordion-card-header h2 .fa-angle-down {
+    font-size: 24px;
+    margin-right: 12px;
+  }
+  .accordion-card-header button {
+    display: flex;
+    padding: 12px;
+  }
+  .button-inner {
+    display: flex;
+    align-items: center;
+  }
+  .image-bottom {
+    font-size: 15px;
+    margin-left: 15px;
+    margin-bottom: 0;
+    padding-top: 0;
+  }
+  .fa-chevron-down {
+    color: #000;
+  }
+  .accrodion-card-body {
+    background: #fef5e0;
+    padding: 12px;
+  }
+  .accrodion-card-body .card-title,
+  .accrodion-card-body .card-sub-title {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: .1em;
+  }
+  .accrodion-card-body .card-sub-title1 {
+    font-size: 12px;
+  }
+  .accrodion-card-body .card-title {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .card-text {
+    font-size: 12px;
+    letter-spacing: .1em;
+  }
+
+  .bangkok {
+    margin-top: 60px;
+  }
+  .bangkok-container {
+    padding: 40px 0;
+  }
+  .bangkok-container h4 {
+    text-align: center;
+  }
+  .bangkok-container .bangkok-sub-title,
+  .bangkok-container .bangkok-list {
+    font-size: 12px;
+  }
+  .environment {
+    font-size: 15px;
+    margin: 0;
+  }
+  
+  .benefits-container {
+    padding-top: 30px;
+  }
+  .benefits-container h3 {
+    font-size: 18px;
+    padding-bottom: 15px;
+  }
+  .benefits-container p {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    letter-spacing: .1em;
+  }
+  .benefits-title h3 {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    width: 50%;
+    background-color: #f7c23c;
+    font-size: 18px;
+    margin-bottom: -20px;
+    line-height: 1.5em;
+    letter-spacing: .1em;
+  }
+  .benefits2-inner {
+    padding: 50px;
+    padding-bottom: 20px;
+  }
+  .bene2-box {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #fff;
+    margin-bottom: 25px;
+  }
+  .bene2-box-inner {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    width: 200px;
+    margin: 0 auto;
+  }
+  .bene2-box h4 {
+    color: #ebb94d;
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .bene-title1 {
+    display: none;
+  }
+  .bene2-box p {
+    position: absolute;
+    top: -40%;
+    left: 80%;
+    width: 130%;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    color: #fff;
+    font-size: 12px;
+  }
+
+  .vol-container {
+    width: 95%;
+    padding: 20px 0 48px 0;
+  }
+  .vol-container .no-vol {
+    font-size: 18px;
+    line-height: 1.5em;
+  }
+  .vol-container p {
+    font-size: 12px;
+    letter-spacing: .1em;
+  }
+  .d-lg-br {
+    display: none;
+  }
+  .month {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto 10px;
+    width: 95%;
+  }
+  .vol-container .vol-mon {
+    font-size: 18px;
+    line-height: 1.5em;
+    line-height: 2em;
+  }
+  .q-bracket5 {
+    width: 30px;
+    height: 30px;
+    border-bottom: 4px solid #fff;
+    border-right: 4px solid #fff;
+  }
+
+  .message-container {
+    width: 95%;
+  }
+  .message-container h3 {
+    font-size: 18px;
+  }
+  .message-container p {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .card-image {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .card-image img {
+    width: 100%;
+    height: auto;
+  }
+  .ci-inner {
+    width: 100%;
+    letter-spacing: .1em;
+  }
+
+  .forms-container h3 {
+    font-size: 18px;
+  }
+  .forms-container p {
+    font-size: 12px;
+  }
+  .form-list {
+    width: 95%;
+  }
+  .btn-send {
+    width: 100%;
+    font-size: 24px;
+    padding: 10px;
+    line-height: 23px;
+    background: #da6b64;
+  }
+  .btn-send p {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    padding: 5px 8px;
+  }
+
+  .fqa h3 {
+    font-size: 18px;
+    margin: 48px 0 30px 0;
+  }
+  .accordion {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .accordion-card {
+    margin: 0 auto;
+  }
+  .accordion-card .card-body {
+    font-size: 12px;
+  }
+  .card-header {
+    position: relative;
+    padding: 0;
+  }
+  .down {
+    position: absolute;
+    top: 7px;
+    right: 20px;
+    font-size: 25px;
+  }
+  
+  .card-header button, 
+  .fa-question-circle {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .footer {
+    padding: 20px 0 10px 0;
+  }
+  .icon-button2 {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 30px 0;
+  }
+
+}
